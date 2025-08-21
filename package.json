@@ -41,6 +41,7 @@
     "zod": "^4.0.17"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.11.6",
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.17.2",
     "@types/three": "^0.179.0",

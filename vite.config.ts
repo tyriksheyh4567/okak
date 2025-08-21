@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 import tailwindcss from '@tailwindcss/vite'
 import Components from 'unplugin-vue-components/vite'
 import MotionResolver from 'motion-v/resolver'
+import { cloudflare } from "@cloudflare/vite-plugin"
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -19,6 +20,7 @@ export default defineConfig({
         MotionResolver()
       ]
     }),
+    cloudflare(),
   ],
   resolve: {
     alias: {
