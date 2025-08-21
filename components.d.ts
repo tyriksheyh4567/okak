@@ -142,7 +142,6 @@ declare module 'vue' {
     FormItem: typeof import('./src/components/ui/form/FormItem.vue')['default']
     FormLabel: typeof import('./src/components/ui/form/FormLabel.vue')['default']
     FormMessage: typeof import('./src/components/ui/form/FormMessage.vue')['default']
-    HomePage: typeof import('./src/components/HomePage.vue')['default']
     HoverCard: typeof import('./src/components/ui/hover-card/HoverCard.vue')['default']
     HoverCardContent: typeof import('./src/components/ui/hover-card/HoverCardContent.vue')['default']
     HoverCardTrigger: typeof import('./src/components/ui/hover-card/HoverCardTrigger.vue')['default']
@@ -295,7 +294,6 @@ declare module 'vue' {
     TagsInputItemDelete: typeof import('./src/components/ui/tags-input/TagsInputItemDelete.vue')['default']
     TagsInputItemText: typeof import('./src/components/ui/tags-input/TagsInputItemText.vue')['default']
     TailedCursor: typeof import('./src/components/ui/tailed-cursor/TailedCursor.vue')['default']
-    TeSt: typeof import('./src/components/TeSt.vue')['default']
     Textarea: typeof import('./src/components/ui/textarea/Textarea.vue')['default']
     Toggle: typeof import('./src/components/ui/toggle/Toggle.vue')['default']
     ToggleGroup: typeof import('./src/components/ui/toggle-group/ToggleGroup.vue')['default']
@@ -305,8 +303,6 @@ declare module 'vue' {
     TooltipProvider: typeof import('./src/components/ui/tooltip/TooltipProvider.vue')['default']
     TooltipTrigger: typeof import('./src/components/ui/tooltip/TooltipTrigger.vue')['default']
     WavyBackground: typeof import('./src/components/ui/wavy-background/WavyBackground.vue')['default']
-    Wow: typeof import('./src/components/WoWs.vue')['default']
-    WoWs: typeof import('./src/components/WoWs.vue')['default']
     ZaGolovok: typeof import('./src/components/ZaGolovok.vue')['default']
   }
 }
