@@ -60,5 +60,15 @@
     "vite-plugin-vue-devtools": "^8.0.0",
     "vue-tsc": "^3.0.6",
     "wrangler": "^4.31.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@tailwindcss/oxide",
+      "esbuild",
+      "sharp",
+      "vue-demi",
+      "workerd"
+    ]
   }
 }
