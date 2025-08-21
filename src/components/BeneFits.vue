@@ -1,8 +1,5 @@
 <template>
-  <WavyBackground class="relative flex h-[500px] w-full flex-col overflow-hidden p-6">
-    <a href="https://github.com/samrejnor/leto_konec_smena" target="_blank" class="flex flex-col items-center justify-center m-5">
-      <InteractiveHoverButton text="Скачать" />
-    </a>
+  <AuroraBackground class="relative flex h-[500px] w-full flex-col overflow-hidden p-6">
     <AnimatedList>
       <template #default>
         <Notification
@@ -16,12 +13,11 @@
         />
       </template>
     </AnimatedList>
-  </WavyBackground>
+  </AuroraBackground>
 </template>
 
 <script setup lang="ts">
-import { InteractiveHoverButton } from './ui/interactive-hover-button';
-import { WavyBackground } from './ui/wavy-background/';
+import { AuroraBackground } from './ui/aurora-background/';
 
 const notifications = [
   {
