@@ -8,7 +8,8 @@
       :animate='{ transform: "translateY(0px)" }'
       :transition='{ type: "spring", duration: 1.5 }'
     >
-      Приложение<br>
+      Приложение
+      <br>
       <span class="font-bold">
         "Честный знак"
       </span>
