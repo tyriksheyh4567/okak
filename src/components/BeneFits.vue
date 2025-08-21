@@ -1,29 +1,27 @@
 <template>
-  <div class="relative flex h-[500px] w-full flex-col overflow-hidden p-6">
-    <WavyBackground>
-      <a href="https://github.com/samrejnor/leto_konec_smena" target="_blank" class="flex flex-col items-center justify-center m-5">
-        <InteractiveHoverButton text="Скачать" />
-      </a>
-      <AnimatedList>
-        <template #default>
-          <Notification
-            v-for="(item, idx) in notifications"
-            :key="idx"
-            :name="item.name"
-            :description="item.description"
-            :icon="item.icon"
-            :color="item.color"
-            :time="item.time"
-          />
-        </template>
-      </AnimatedList>
-    </WavyBackground>
-  </div>
+  <WavyBackground class="relative flex h-[500px] w-full flex-col overflow-hidden p-6">
+    <a href="https://github.com/samrejnor/leto_konec_smena" target="_blank" class="flex flex-col items-center justify-center m-5">
+      <InteractiveHoverButton text="Скачать" />
+    </a>
+    <AnimatedList>
+      <template #default>
+        <Notification
+          v-for="(item, idx) in notifications"
+          :key="idx"
+          :name="item.name"
+          :description="item.description"
+          :icon="item.icon"
+          :color="item.color"
+          :time="item.time"
+        />
+      </template>
+    </AnimatedList>
+  </WavyBackground>
 </template>
 
 <script setup lang="ts">
 import { InteractiveHoverButton } from './ui/interactive-hover-button';
-import WavyBackground from './ui/wavy-background/WavyBackground.vue';
+import { WavyBackground } from './ui/wavy-background/';
 
 const notifications = [
   {
